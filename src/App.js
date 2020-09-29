@@ -9,6 +9,7 @@ import Footer from './Components/Footer';
 import Home from './Views/Home';
 import About from './Views/About';
 import Product from './Views/Product';
+import Contact from './Views/Contact';
 
 
 
@@ -34,6 +35,10 @@ function App() {
 
           <Route exact path="/products/:id">
             <Product />
+          </Route>
+
+          <Route exact path="/contact">
+            <Contact />
           </Route>
 
           </Switch>
